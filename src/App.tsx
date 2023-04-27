@@ -1,6 +1,12 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import CatGalery from './pages/CatApi';
+import CatGalery from './pages/catImagesApi';
 import './global.css'
+import Cats from './pages/cats';
+//theme
+import "primereact/resources/themes/lara-light-indigo/theme.css";     
+    
+//core
+import "primereact/resources/primereact.min.css";     
 
 
 function App() {
@@ -8,7 +14,8 @@ function App() {
     <BrowserRouter>
       <Routes>
         {/* <Route path="/" element={<Home />} /> */}
-        <Route path="/cat" element={<CatGalery />} />
+        <Route path="/images" element={<CatGalery />} />
+        <Route path="/cats" element={<Cats />} />
       </Routes>
     </BrowserRouter>
   );

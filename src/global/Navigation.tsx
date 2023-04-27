@@ -12,14 +12,21 @@ const Navigation = () => {
                         className="block mt-4 lg:inline-block lg:mt-0 text-gray-400 hover:text-gray-800 font-medium transition duration-700 mr-4 text-lg"
                         style={{ fontSize: "1.2rem" }}
                     >
-                        Home
+                        Inicio
                     </a>
                     <a
-                        href="/cat"
+                        href="/images"
                         className="block mt-4 lg:inline-block lg:mt-0 text-gray-400 hover:text-gray-800 font-medium transition duration-700 mr-4 text-lg"
                         style={{ fontSize: "1.2rem" }}
                     >
-                        Cat
+                        Imagenes
+                    </a>
+                    <a
+                        href="/cats"
+                        className="block mt-4 lg:inline-block lg:mt-0 text-gray-400 hover:text-gray-800 font-medium transition duration-700 mr-4 text-lg"
+                        style={{ fontSize: "1.2rem" }}
+                    >
+                        Gatos
                     </a>
                 </div>
             </div>
