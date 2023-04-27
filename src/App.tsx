@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { CatApi } from './pages/CatApi';
+import CatGalery from './pages/CatApi';
 import './global.css'
 
 
@@ -8,7 +8,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         {/* <Route path="/" element={<Home />} /> */}
-        <Route path="/cat" element={<CatApi />} />
+        <Route path="/cat" element={<CatGalery />} />
       </Routes>
     </BrowserRouter>
   );
