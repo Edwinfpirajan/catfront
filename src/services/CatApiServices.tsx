@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const url = 'http://localhost:8080'
+const url = 'https://catbackend-production.up.railway.app'
 
 
 export const CatApiService = {
